@@ -1,1 +1,1 @@
-https://mybinder.org/v2/gh/IndieAte/further-maths-presentation/master
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IndieAte/further-maths-presentation/master)
