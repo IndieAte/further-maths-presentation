@@ -16,3 +16,10 @@ $15$ decimal places is however, rather coincidentally, the number of places used
 The reason for this is that if you were to calculate the circumference of a circle with a radius of the distance of Voyager $1$ from the earth, which is $12.5$ billion miles, using $\pi$ rounded to $15$ decimal places, you would be off by about $1.5$ inches.  
 To calculate the circumference of the visible universe to an accuracy within the diameter of a hydrogen atom, you wouldn't need more than 40 decimal places of $\pi$.  
 As such, in $10$ (or probably fewer) iterations, we have reached an accuracy of pi that is good enough for interplanetary travel.  
+- Fix the if statements in the interactive bits like this:  
+    if n > 0 and pinewt_n1 < pinewt_n :  
+        x = np.linspace(pinewt_n1 - (0.5 * 10**(-n)), pinewt_n + (0.5 * 10**(-n)) ,500)  
+    elif n > 0 and pinewt_n < pinewt_n1:  
+        x = np.linspace(pinewt_n - (0.5 * 10**(-n)), pinewt_n1 + (0.5 * 10**(-n)) ,500)  
+    else:  
+        x = np.linspace(0,6,500)  
