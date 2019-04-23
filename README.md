@@ -10,7 +10,7 @@ The presentation is stored in the 'Maths Presentation' iPython Notebook.
 When the notebook is run, you should use the Kernel > Restart and Run All option to ensure that the interactive sections run correctly.  
 
 ## Temporary Notes
-- Add this markdown to the end of the presentation
+- Add this markdown to the end of the presentation:  
 In reality, we've approximated $\pi$ to more than $15$ decimal places, but the python kernel running this cannot print more than $15$ decimal places.  
 $15$ decimal places is however, rather coincidentally, the number of places used by NASA's Jet Propulsion Laboratory in their most accurate calculations.  
 The reason for this is that if you were to calculate the circumference of a circle with a radius of the distance of Voyager $1$ from the earth, which is $12.5$ billion miles, using $\pi$ rounded to $15$ decimal places, you would be off by about $1.5$ inches.  
