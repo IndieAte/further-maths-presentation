@@ -2,7 +2,7 @@
 
 # Further Maths Presentation
 ## Summary
-The presentation is on Newton's method for approximating the solutions to equations and specifically using it to approximate $\pi$ to 15 decimal places
+The presentation is on Newton's method for approximating the solutions to equations and specifically using it to approximate pi to 15 decimal places
 
 ## Running the Notebook
 To run the notebook you can click the above badge or you can clone the repository and run it with jupyter.  
